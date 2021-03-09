@@ -20,7 +20,7 @@ public class Seleniumframes
 {
 	static
 	{
-		WebDriverManager.chromedriver().setup();
+		qWebDriverManager.chromedriver().setup();
 	}
 	@Test
 	public static void seleniumFrames( ) throws InterruptedException
